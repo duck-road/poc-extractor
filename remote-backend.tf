@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket      = "poc-extractor"
-    prefix      = "terraform/state1"
+    bucket      = "aloconcursos-dev-terraform"
+    prefix      = "terraform/poc-extractor"
     credentials = "service-account.json"
   }
 }

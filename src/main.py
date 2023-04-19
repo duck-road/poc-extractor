@@ -8,7 +8,7 @@ def apply_form_processor_to_pdf(event, context):
 
     project_id = 'aloconcursos-dev'
     location = 'us' # Format is 'us' or 'eu'
-    processor_id = '8457a3d172f5073f' # Create processor before running sample
+    processor_id = 'facac96689e36943' # Create processor before running sample
     processor_version = 'rc' # Refer to https://cloud.google.com/document-ai/docs/manage-processor-versions for more information
     file_path = f"gs://{event['bucket']}/{event['name']}"
     mime_type = 'application/pdf' # Refer to https://cloud.google.com/document-ai/docs/file-types for supported file types
