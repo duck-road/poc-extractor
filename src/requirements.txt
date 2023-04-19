@@ -1,0 +1,3 @@
+google-cloud-documentai==2.15
+google-api-core==1.34.0
+google-cloud-storage==1.42.3

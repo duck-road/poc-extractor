@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  terraform:
+    image: hashicorp/terraform:1.3.3
+    volumes:
+      - .:/infra
+    working_dir: /infra
